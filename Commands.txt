@@ -1,0 +1,41 @@
+import pandas as pd
+pd.set_option('display.max_columns', 500)
+import matplotlib.pyplot as plt
+import numpy as np
+import plotly.express as px
+import plotly.graph_objects as go
+from plotly import graph_objects as go 
+
+import seaborn as sns
+sns.set(style="darkgrid")
+
+import warnings
+warnings.filterwarnings('ignore')
+
+from scipy import stats as st
+import scipy.stats as stats
+from math import factorial
+from scipy.stats import norm
+
+
+
+from nltk.stem import SnowballStemmer 
+russian_stemmer = SnowballStemmer('russian')
+
+from pymystem3 import Mystem
+m = Mystem()
+from collections import Counter
+
+
+import sqlite3
+conn = sqlite3.connect('example.db')
+cur = conn.cursor()
+sqlite3.sqlite_version
+cur.executescript(sql)
+
+def select(sql):
+  return pd.read_sql(sql,conn)
+
+
+<a href='#1'>Приоритизация гипотез. </a>
+<a id='1'></a>
